@@ -1,0 +1,19 @@
+{
+  "name": "latihannodejs1",
+  "version": "1.0.0",
+  "description": "Latihan node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyasuryana/NodeJS.git"
+  },
+  "author": "Oya Suryana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oyasuryana/NodeJS/issues"
+  },
+  "homepage": "https://github.com/oyasuryana/NodeJS#readme"
+}
