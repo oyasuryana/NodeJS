@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/oyasuryana/NodeJS/issues"
   },
-  "homepage": "https://github.com/oyasuryana/NodeJS#readme"
+  "homepage": "https://github.com/oyasuryana/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
