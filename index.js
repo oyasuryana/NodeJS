@@ -1,10 +1,9 @@
-const http = require('http');
+const express = require('express');
+const hbs = require('hbs');
+const app = express();
 
-http.createServer(function(req,res){
-    res.writeHead(200,{
-        "Content-type" : "text/html"
-    })
-    res.end('hello world');
-}).listen(8000);
+// route home
+app.get('/',(req,res)=>{
+    
 
-console.log('Server berjalan di port 8000');
+})
