@@ -12,6 +12,11 @@ app.get('/',(req,res)=>{
     res.render('index');    
 });
 
+// route about
+app.get('/about',(req,res)=>{
+    res.render('about')
+})
+
 app.listen(8000,()=>{
     console.log('Server bejalan di port 8000');
 })
