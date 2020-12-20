@@ -17,6 +17,11 @@ app.get('/about',(req,res)=>{
     res.render('about')
 })
 
+// route form buku tamu
+app.get('/bukutamu',()=>{
+    res.render('BukuTamu');
+});
+
 app.listen(8000,()=>{
     console.log('Server bejalan di port 8000');
 })
